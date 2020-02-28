@@ -1,6 +1,8 @@
 name: "Terraform Deploy"
 on:
-  - pull_request
+  push:
+    branches:
+      - master
 jobs:
   terraform:
     name: "Terraform"
