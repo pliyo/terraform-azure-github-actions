@@ -1,2 +1,2 @@
-# terraform-azure-github-actions-deploy
+# terraform-azure-github-actions
 Deploying to Azure using terraform and github actions
