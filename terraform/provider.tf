@@ -6,8 +6,3 @@ provider "azurerm" {
   client_id       = "${var.agent_client_id}"
   client_secret   = "${var.agent_client_secret}"
 }
-
-terraform {
-  backend "azurerm" {}
-}
-
