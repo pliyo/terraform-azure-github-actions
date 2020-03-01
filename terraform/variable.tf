@@ -6,10 +6,6 @@ variable "agent_client_secret" {}
 variable "subscription_id" {}
 variable "tenant_id" {}
 
-# Environment 
-variable "location" {}
-
-
 locals {
   service_name = "pliyo-web"
 
