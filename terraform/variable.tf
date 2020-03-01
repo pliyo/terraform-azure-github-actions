@@ -14,9 +14,8 @@ locals {
   service_name = "pliyo-web"
 
   tags = {
-    "ENVIROMENT" = "${var.environment_name}"
-    "OWNER"      = "Pliyo"
-    "TERRAFORM"  = "true"
+    "OWNER"     = "Pliyo"
+    "TERRAFORM" = "true"
   }
 }
 
